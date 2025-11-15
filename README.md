@@ -37,6 +37,6 @@ The program currently does not handle invalid character input
 (e.g., if the user types a letter).
 I will update this once I learn input validation.
 
-📄 License
+# 📄 License
 
 Free to use. Enjoy!
