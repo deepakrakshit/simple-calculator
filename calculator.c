@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
+// Function Prototypes
+int add(int a, int b);
+int subtract(int a, int b);
+int multiply(int a, int b);
+double divide(double x, double y);
+
 // Simple function to add two numbers
 int add(int a, int b){
     return a + b;
