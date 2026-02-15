@@ -1,70 +1,110 @@
 # 🧮 Simple Calculator – C Project
 
-A clean and user‑friendly **menu‑driven calculator** written in C. It performs basic arithmetic operations with proper validation and loop‑based execution.
+A clean and user-friendly **menu-driven calculator** written in C.
+This repository contains **multiple versions** of the calculator, showing my learning progression in C programming.
 
 ---
 
-# ⭐ Features
+## ⭐ Features (Overall)
 
 * ➕ Addition
 * ➖ Subtraction
 * ✖️ Multiplication
-* ➗ Division (with divide‑by‑zero safety)
-* 📋 Menu‑based user interface
+* ➗ Division (with divide-by-zero safety)
+* 🧮 Modulus
+* 🔢 Power
+* 📐 Square Root
+* 🔁 Factorial
+* ⚖️ Even / Odd Check
+* 📋 Menu-based user interface
 * 🔁 Runs continuously until user exits
-* 🧩 Uses separate functions for each operation
+* 🧩 Separate functions for each operation
 
 ---
 
-# 📝 How the Calculator Works
-
-1. A menu (1–5) appears 📜
-2. You select an operation 🔢
-3. You enter two numbers ✍️
-4. The calculator performs the operation using the corresponding function ⚙️
-5. The result is displayed immediately 📊
-6. The program repeats until you choose **Exit** 🚪
-
----
-
-# 📟 Sample Menu
+## 📂 Project Structure
 
 ```
------ SIMPLE CALCULATOR -----
+simple-calculator/
+│
+├── v1/
+│   └── calculator_v1.c   (Basic calculator)
+│
+├── v2/
+│   └── calculator_v2.c   (Extended calculator with more operations)
+│
+└── README.md
+```
+
+---
+
+## 🧩 Version Details
+
+### 🔹 Version 1 (v1)
+
+* Basic arithmetic operations
+* Beginner-friendly structure
+* Menu-driven program
+* Uses functions for clean logic
+
+### 🔹 Version 2 (v2)
+
+* Added modulus, power, square root
+* Factorial and even/odd checker
+* Improved validation and error handling
+* Cleaner loop structure
+
+---
+
+## 📟 Sample Menu (v2)
+
+```
+----- SIMPLE CALCULATOR v2 -----
 1. Add
 2. Subtract
 3. Multiply
 4. Divide
-5. Exit
-Your Choice:
+5. Modulus
+6. Power
+7. Square Root
+8. Factorial
+9. Even / Odd Check
+10. Exit
 ```
 
 ---
 
-# 🚀 Compile & Run
+## 🚀 Compile & Run
 
-### Windows
+### ▶️ Version 1
 
+```bash
+gcc v1/calculator_v1.c -o calculator_v1
+./calculator_v1
 ```
-gcc calculator.c -o calculator.exe
-calculator.exe
-```
 
-### Linux / macOS
+### ▶️ Version 2
 
-```
-gcc calculator.c -o calculator
-./calculator
+```bash
+gcc v2/calculator_v2.c -o calculator_v2 -lm
+./calculator_v2
 ```
 
 ---
 
-# 📂 File Included
+## 🧠 Learning Outcome
 
-* `calculator.c`
+This project demonstrates:
+
+* Use of functions in C
+* Menu-driven program design
+* Input validation
+* Code versioning and progression
+* Practical problem-solving using C fundamentals
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-Created by **Deepak Rakshit** while learning fundamentals of C.
+**Deepak Rakshit**
+Learning C Programming and building projects step by s
