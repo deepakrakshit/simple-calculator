@@ -107,4 +107,4 @@ This project demonstrates:
 ## 👨‍💻 Author
 
 **Deepak Rakshit**
-Learning C Programming and building projects step by s
+Learning C Programming and building projects step by step 🚀
